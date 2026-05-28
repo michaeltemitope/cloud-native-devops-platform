@@ -1,0 +1,97 @@
+# =========================================================
+# GLOBAL OS FILES
+# =========================================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================================================
+# IDE / EDITOR FILES
+# =========================================================
+.idea/
+.vscode/
+.settings/
+
+*.iml
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+.classpath
+.project
+.factorypath
+
+*.swp
+*.swo
+
+# =========================================================
+# ENVIRONMENT / SECRETS
+# =========================================================
+.env
+.env.local
+.env.*.local
+
+# Allow example env files
+!.env.example
+
+# =========================================================
+# LOG FILES
+# =========================================================
+logs/
+*.log
+*.log.*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================================================
+# BACKEND - SPRING BOOT / MAVEN
+# =========================================================
+
+# Build output
+opsbytemitope-backend/target/
+
+# Java artifacts
+opsbytemitope-backend/*.jar
+opsbytemitope-backend/*.war
+opsbytemitope-backend/*.ear
+opsbytemitope-backend/*.class
+
+# Maven cache
+opsbytemitope-backend/.mvn/repository/
+
+# Test reports
+opsbytemitope-backend/surefire-reports/
+opsbytemitope-backend/failsafe-reports/
+
+# Checkstyle cache
+opsbytemitope-backend/checkstyle-cachefile
+
+# =========================================================
+# FRONTEND - REACT / VITE
+# =========================================================
+
+# Dependencies
+opsbytemitope-frontend/node_modules/
+
+# Build output
+opsbytemitope-frontend/dist/
+opsbytemitope-frontend/dist-ssr/
+
+# Coverage reports
+opsbytemitope-frontend/coverage/
+
+# =========================================================
+# OPTIONAL TEMP FILES
+# =========================================================
+tmp/
+temp/
+*.tmp
